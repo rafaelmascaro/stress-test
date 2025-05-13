@@ -1,0 +1,10 @@
+version: '3.0'
+
+services:
+  tester:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: tester:latest
+
+  
